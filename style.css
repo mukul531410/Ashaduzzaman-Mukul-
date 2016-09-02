@@ -1,0 +1,833 @@
+/*
+Theme Name: Instant Repairs
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: instant-repairs
+*/
+
+body {
+    overflow-x: hidden;
+}
+
+.logo a:focus{
+    outline: medium none;
+    text-decoration: none;
+}
+
+.featured-image-section{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: auto;
+    padding: 4px;
+}
+.image-gallery{
+	padding: 0 20px !important;
+	max-width:100%;
+}
+
+.navbar-main{
+	margin-bottom:0;
+}
+
+.foot-nav .current-menu-item a{
+	color: #ea8400 !important;
+}
+
+/*dashboard*/
+.wpuf-pagination{
+    padding: 10px 0;
+}
+.wpuf-fields input[type="text"], 
+.wpuf-fields input[type="search"], 
+.wpuf-fields input[type="radio"], 
+.wpuf-fields input[type="tel"], 
+.wpuf-fields input[type="time"], 
+.wpuf-fields input[type="url"], 
+.wpuf-fields input[type="week"], 
+.wpuf-fields input[type="password"], 
+.wpuf-fields input[type="checkbox"], 
+.wpuf-fields input[type="color"], 
+.wpuf-fields input[type="date"], 
+.wpuf-fields input[type="datetime"], 
+.wpuf-fields input[type="datetime-local"], 
+.wpuf-fields input[type="email"], 
+.wpuf-fields input[type="month"], 
+.wpuf-fields input[type="number"]{
+	width: 94% !important;
+}
+ul.wpuf-form li .wpuf-fields input[type=text], ul.wpuf-form li .wpuf-fields input[type=password], ul.wpuf-form li .wpuf-fields input[type=email], ul.wpuf-form li .wpuf-fields input[type=url], ul.wpuf-form li .wpuf-fields input[type=number], ul.wpuf-form li .wpuf-fields textarea{
+	width: 100% !important;
+}
+
+.wpuf-form-add .business_email{
+	display:none;
+}
+.wpuf-submit input[type="hidden"]{
+	display:none;
+}
+/*dashboard end*/
+
+/*business single page*/
+.single-contact-form label{
+	padding: 0;
+	margin: 0;
+}
+.single-contact-form .col-sm-10{
+    padding: 0 3px;
+}
+.contact-submit-section{
+	text-align: right;
+}
+.single-contact-form input,.wpcf7-form textarea{
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-family: "Roboto",sans-serif;
+}
+.single-contact-form label{
+    font-family: "Roboto",sans-serif;
+}
+.wpcf7-form textarea{
+    margin-left: 4%;
+    max-width: 96%;
+}
+.contact-submit-section .wpcf7-submit{
+	background: #EB8401;
+    font-family: "Roboto",sans-serif;
+    border: none;
+    color: #ffffff;
+    padding: 10px 40px;
+}
+.btn-more{
+	background: #EB8401;
+    font-family: "Roboto",sans-serif;
+    border: none;
+    color: #ffffff;
+    padding: 8px 30px;
+    display: table;
+}
+.btn-more:hover,.btn-more:focus{
+	text-decoration: none;
+	outline: none;
+    color: #ffffff;
+}
+.add-more-service:hover,.add-more-service:focus{
+	text-decoration: none;
+	outline: none;
+    color: #ffffff;	
+}
+/*business single page*/
+
+.about-icon img{
+	max-width: 100%;
+}
+
+.search-section{
+    position: relative;
+    z-index: 9;
+    width: 100%;
+}
+
+.newsletter-section form button, .newsletter-section input[type="submit"], .newsletter-button{
+	max-width: 150px;
+}
+
+.newsletter-section form input[type=email]:focus{
+	border-color: #eeeeee;
+	outline: none;
+	box-shadow: none;
+}
+.signup-form-box .wpuf-form .wpuf-submit input[type="submit"]{
+	margin-left: 0 !important;
+}
+
+.home-page .dark-glass::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.sub-menu{
+    background: #ffffff;
+    box-shadow: 0 0 5px -1px #ccc;
+    display: none;
+    padding: 5px 10px;
+    position: absolute;
+    width: 150px;
+    text-align: left !important;
+}
+
+.account-area > ul > li:hover > .sub-menu{
+    display: block;
+}
+
+.sub-menu a {
+    color: #666;
+}
+
+.sub-menu a:hover,.sub-menu a:focus{
+    outline: medium none;
+    text-decoration: none;
+}
+
+.breadcrumb > li strong{
+	color:#ea8400;
+}
+
+.save-change .btn {
+    margin-top: 20px;
+    margin-left: 8px;
+}
+.save-change br {
+    display: none;
+}
+
+.breadcrumb>li+li:before {
+    content: none;
+}
+
+.separator {
+    margin: 0 10px;
+    color: #fff;
+}
+
+.bread-current {
+	color: #ea8400;
+}
+
+.breadcrumb>li+li:before{
+	display:none;
+}
+
+.form-control:focus {
+    border-color: #CCC;
+}
+
+.select-fix {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+   background: url('assets/images/icons/dropdown_arrow.png') no-repeat;
+   background-position: 244px;
+}
+
+.business-title {
+	text-decoration: none;
+}
+
+   
+.business-title:hover {
+	text-decoration: none;
+	color: #0d5375;
+}
+
+.business-title:hover {
+	text-decoration: none;
+	color: #ea8400;
+}
+  
+.pagination {
+    margin: 50px auto !important;
+}
+   
+.pagination .current {
+    background-image: none;
+    background: #ea8400 !important;
+    border: none;
+}
+   
+.account-area a,
+.header-menu a {
+	text-decoration: none;
+}
+
+.header-menu a {
+	color: #fff;
+}
+
+#header-section {
+    padding: 10px 0;
+}
+
+.navbar-toggle .icon-bar{
+	background: #BDCAD6;
+}
+
+.carousel-control {
+	display: none;
+}
+
+#menu-home-footer-menu a {
+    color: #fff;
+    text-decoration: none;
+    transition: .3s;
+}
+
+#menu-home-footer-menu a:hover {
+    color: #ea8400;
+}
+
+.additional-charge{
+	margin-bottom: 40px;
+}
+
+.business-listing a:hover{
+	text-decoration: none;
+}
+
+.wpcf7 input:focus, .wpcf7 select:focus, .wpcf7 textarea:focus{
+	outline: none;
+}
+
+.wpuf-form {
+	padding-left: 0;
+}
+
+.wpuf-form li {
+    margin-bottom: -14px !important;
+    padding: 10px 0 !important; 
+}
+
+.wpuf-label {
+	display: none;
+}
+
+.wpuf-form li {
+    padding: 0; 
+}
+
+.wpuf-form li .wpuf-fields {
+    width: 100% !important;
+}
+
+.wpuf-fields input[type=text], 
+.wpuf-fields input, 
+.wpuf-fields select,
+.wpuf-fields textarea {
+    padding: 5px;
+    width: 100%;
+}
+
+.wpuf-form li .wpuf-fields select {
+    background: #FAFAFA;
+    padding: 10px !important;
+    height: 45px !important;
+    border-radius: 3px !important;
+    color: #B49E9E;
+}
+
+ul.wpuf-form li .wpuf-fields textarea {
+    width: 100%;
+    padding: 10px 5px !important;
+    height: auto;
+}
+
+ul.wpuf-form .wpuf-submit input[type=submit] {
+	width: 100% !important;
+	background: #11b400 !important;
+}
+
+
+.wpuf-fields input:focus, 
+.wpuf-fields select:focus,
+.wpuf-fields textarea:focus {
+/*	border: none !important; */
+	padding-left: 5px !important ;
+}
+
+.wpuf-form li .wpuf-fields select{
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("assets/dropdown_arrow.png");
+    background-position: right 15px center;
+    background-repeat: no-repeat;
+    border: 1px none;
+}
+
+.wpuf-submit{
+	max-width: 150px;
+}
+
+.edit-form .wpuf-fields input[type=text], 
+.edit-form .wpuf-fields input[type=password], 
+.edit-form .wpuf-fields input[type=email], 
+.edit-form .wpuf-fields input[type=url], 
+.edit-form .wpuf-fields input[type=number],
+.edit-form .wpuf-fields select{
+    width: 100%;
+    background: #FAFAFA;
+    padding: 10px !important;
+    height: 45px !important;
+    border-radius: 3px !important;
+    color: #B49E9E;
+}
+
+.add-more-service{
+	color: #fff;
+    background: #ea8400;
+    border-radius: 3px;
+}
+
+.list-your-business{
+    background: #ea8400;
+    border-radius: 3px;
+}
+
+.edit-form {
+    margin-bottom: 50px;
+}
+
+.edit-form .wpuf-label {
+	display: block;
+}
+
+#content-section {
+    min-height: 270px;
+}
+
+.wpuf-info {
+    background-color: #11b400;
+    color: #000;
+    border: 2px solid #119B03;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0 0 10px 0;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.header-menu .logout {
+	display: none !important;
+}
+
+/* Search Filter */
+	
+	.btn-search-submit:hover,.btn-search-submit:focus{
+	    color: #ffffff;
+	    background: #ea8400;
+	}
+
+.searchandfilter ul {
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.searchandfilter select,
+.searchandfilter input[type="submit"] {
+    vertical-align: top;
+    padding: 10px;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+}
+
+.searchandfilter input[type="submit"] {
+	background: #12B301;
+	color: #fff;
+	font-weight: 500;
+}
+
+.signup-form-box inpu:focus{
+	outline: none;
+}
+
+.menu-footer-menu-container .logout {
+    display: none;
+}
+
+.wpuf-form .wpuf-submit input[type=submit] {
+    width: 225px !important;
+    background: #11b400 !important;
+    margin-left: 165% !important;
+}
+
+input[type="text"], input[type="search"], input[type="radio"], input[type="tel"], input[type="time"], input[type="url"], input[type="week"], input[type="password"], input[type="checkbox"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], select, textarea{
+    width: 100%;
+    outline: none;
+	
+}
+
+.single-business .row{
+	padding: 20px;
+}
+
+.wppb-front-end-logout{
+    font-size: 20px;
+    padding: 30px;
+}
+
+.wppb-user-forms input[type="checkbox"], .wppb-user-forms input[type="radio"] {
+    padding: 0;
+    height: auto;
+    width: auto;
+}
+
+#wppb-submit{
+    padding: 10px 15px;
+    background: #11b400;
+    border-radius: 4px;
+    height: auto;
+    border: none;
+    box-shadow: none;
+    color: #fff;
+}
+
+.add-more-service {
+    display: block;
+    width: 225px;
+    height: 45px !important;
+    padding: 13px 40px;
+    margin-top: -55px;
+    color: #fff;
+}
+
+.add-more-service a {
+	text-decoration: none;
+}
+
+table.wpuf-table td img{
+    width: 90px;
+    height: auto;
+}
+table.wpuf-table thead th, table.wpuf-table th {
+    padding: 9px 10px !important;
+}
+
+table.wpuf-table td {
+    padding: 0 !important;
+}
+
+.main-menu-section > li{
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none;
+    padding: 6px 0 !important;
+}
+
+.main-menu-section > li a{
+    color: #fff !important;
+    padding: 6px 12px;
+    display: block;
+}
+
+.main-menu-section > li:hover{
+    background:#11b400;
+}
+
+.main-menu-section > li a:hover,.main-menu-section > li a:focus{
+    background:#11b400;
+    border-radius: 3px;
+}
+
+.account-area > ul > li > a:hover,.account-area > ul > li > a:focus{
+	text-decoration: none;
+	outline:none;
+	color:#ea8400;
+}
+
+.login-area, .account-area ul{
+	margin: 0;
+	text-align: right;
+}
+
+.signup-form .wpuf-submit{
+    max-width: 100%;
+}
+
+.search-cat {
+    width: 59%;
+}
+
+.search-city {
+    width: 25%;
+}
+
+.search-input select, .search-input .btn{
+	min-width: 100px;
+}
+
+.signup-form-box .wpuf-success {
+    border: none;
+    padding: 10px;
+    background: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1200px){
+	.footer-nav{
+		text-align: center;	
+	}
+}
+
+@media screen and (max-width:767px){
+	.navbar-main {
+	    background: #ffffff;
+	    border-top: 1px solid #eee !important;
+	    left: 0;
+	    margin: 0 !important;
+	    position: absolute;
+	    top: 70px;
+	    width: 100%;
+	    z-index: 99;
+	}
+	.login-area, .account-area {
+	    float: none !important;
+    	text-align: left;
+	}
+
+	.login-area, .account-area ul{
+    	text-align: left;
+	}
+	.navbar-main .list-inline > li{
+	    display: block;
+	    padding: 5px 0;
+	    margin: 3px 0 0 !important;
+	}
+	.account-area a, .header-menu a {
+	    font-size: 20px;
+	    text-align: center;
+	}
+	#search-section{
+		background: #0d5375 !important;
+	}
+	#business-list-section .advert-area img {
+	    width: 100%;
+	}
+	.account-area > ul > li > .sub-menu {
+		box-shadow: none;
+		padding: 5px 0;
+		position: relative;
+		width: 100%;
+	}
+	.newsletter-section{
+		/*display:none;*/
+	}
+	.about-description {
+	    margin: 0 !important;
+	}
+	.about-description h2 {
+	    font-size: 15px !important;
+	    margin: 10px 0 !important;
+	}
+	.about-instantrepair .about-item {
+	    margin: 15px 0;
+	    max-width: 100% !important;
+	    text-align: center;
+	}
+	.about-description p {
+	    /*display: none;*/
+	}
+	.about-item .about-icon {
+		font-size: 32px !important;
+	    margin: 0 auto;
+	    position: relative !important;
+	}
+	.about-item:nth-child(3) .fa{
+		position: relative;
+    	top: 1px;
+	}
+	.home-page .dark-glass {
+	    padding: 50px 0;
+	}
+	.home-page .search-input-list li{
+	    padding: 0;
+	    display: block;
+	    width: 100% !important;
+	}
+	.home-page .search-input-list li:not(:first-child){
+	    margin: 5px 0 0;
+	}
+	.carousel-inner{
+		padding: 0 15px;
+	}
+	.single-business:not(:first-child){
+	    margin-top: 5px;
+	}
+	.footer-nav {
+	    text-align: center;
+	}
+	.business-listing {
+	    border-right: none !important;
+	}
+	.advert-area{
+		margin-top:10px;
+	}
+	.search-input-list {
+	    background: rgba(255, 255, 255, 0.5) none repeat scroll 0 0;
+	    margin: 0 auto;
+	    padding: 5px 0;
+	    width: auto !important;
+	}
+	.search-input select, .search-input .btn {
+	    margin-bottom: 0 !important;
+		min-width: inherit;
+		padding: 15px 5px !important;
+	}
+	.search-input-list {
+	    text-align: center;
+	}
+	#search-section .container{
+		padding: 0;
+    	width: 100% !important;
+	}
+	#search-section .search-bar{
+		width: 100% !important;
+    	padding: 0;
+	}
+	.signup-form select, .search-input select {
+	    background-position: center right 5px !important;
+	    background-size: 10px;
+	}
+	.home .search-cat {
+	    width: 100% !important;
+    	margin: 0 !important;
+	}
+	.home .search-city {
+	    width: 100% !important;
+	}
+	.search-cat {
+	    width: 40%;
+	}
+	.search-city{
+	    width: 40%;
+	}
+	
+	.home .search-btn .fa {
+	    font-size: 20px;
+	    float: none !important;
+	} 
+	
+	.home .btn-search-submit{
+	    text-align: center;
+	}
+	
+	.home .pull-left{
+		float: none !important;
+	}
+	
+	#search-section .btn-search-submit{
+		padding: 15px 10px !important;
+	    text-align: center;
+	    width: 40px;
+	}
+	#search-section .search-btn .fa {
+	    float: none;
+	    margin: 0 !important;
+	}
+	
+	#search-section .search-btn {
+	    width: 50px !important;
+	}
+
+	#search-section .search-btn .fa {
+	    margin: 0;
+	}
+	#search-section .btn-search-submit .pull-left{
+		display:none;
+	}
+	.additional-charge {
+	    margin: 0 15px 40px;
+		width: 96% !important;
+	}
+}
+
+@media screen and (max-width:566px){
+	.logo{
+		max-width: 180px;
+	}
+	.logo-img {
+	    width: 100%;
+	}
+	.newsletter-section form button, .newsletter-section input[type="submit"], .newsletter-button {
+	    max-width: 100%;
+	    position: relative !important;
+	    right: 0 !important;
+	}
+	.newsletter-section form button, .newsletter-section input[type="submit"], .newsletter-button {
+	    background-position: 85%;
+	}
+   .search-input:not(:first-child){
+       margin-top: 5px;
+   }
+	.search-cat {
+	    /*width: 100% !important;*/
+	}
+	.search-city {
+	    /*width: 100% !important;*/
+	}
+   .search-btn {
+        /*width: 100% !important;*/
+   }
+   .wpuf-form .wpuf-submit input[type="submit"] {
+	    margin-left: 0 !important;
+	}
+	.add-more-service {
+	    margin-top: 15px;
+	    width: 205px;
+	}
+	.additional-charge {
+	    margin: 0 0 40px !important;
+	}
+	
+	.menu-footer-menu-container,
+	.footer-nav{
+		/*display:none;*/
+	}
+	.account-area{
+		
+		height:200px;
+	}
+	.account-area > ul > li > a{text-align:center;}
+	
+	.btn-login,.list-your-business{
+	
+	 height: 60px;
+    line-height: 48px;
+    font-size: 25px;
+	}
+	.btn-login a{
+		font-size:25px;
+	}
+	.single-business .wpcf7-form div{
+		padding: 0 !important;
+	}
+	.wpcf7-form textarea {
+	    margin-left: 0;
+	    max-width: 100%;
+	}
+}
+
+@media screen and (max-width:380px){
+	.single-business .contact-list li {
+	    padding-left: 30px;
+	    padding-right: 0;
+	}
+	.single-business ul li a{
+		font-size: 11px;
+	}
+	.search-cat {
+	    /*width: 100% !important;*/
+	}
+	.search-city {
+	    /*width: 100% !important;*/
+	}
+   .search-btn {
+        /*width: 100% !important;*/
+   }
+}
+
+
+
+
